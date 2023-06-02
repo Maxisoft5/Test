@@ -19,4 +19,4 @@ SQL
 
 3. 
   SELECT p.CatalogID, SUM(p.PositionQuantity * p.PositionPrice) as СуммаЗакупки
-  FROM Table1 p WHERE p.RequestID = 1 GROUP BY p.CatalogID HAVING (SUM(p.PositionQuantity * p.PositionPrice)) > 50
+  FROM Table1 p WHERE p.RequestID = 1 GROUP BY p.CatalogID HAVING (SUM(p.PositionQuantity * p.PositionPrice)) > 100000
